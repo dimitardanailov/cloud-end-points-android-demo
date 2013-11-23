@@ -9,15 +9,11 @@ Cloud Conf Varna Website : https://sites.google.com/a/agilemates.com/cloudconf
 
 Presentation
 ====================
-Slide Share : 
-
-http://www.slideshare.net/dimityrdanailov/google-cloud-endpoints
+Slide Share : http://www.slideshare.net/dimityrdanailov/google-cloud-endpoints
 
 Android Demo
 ====================
-GitHub Repo : 
-
-https://github.com/dimitardanailov/cloud-end-points-android-demo
+GitHub Repo : https://github.com/dimitardanailov/cloud-end-points-android-demo
 
 iOS Demo
 ====================
