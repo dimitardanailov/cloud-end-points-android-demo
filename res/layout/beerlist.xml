@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="2dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <!-- Name label -->
+
+	<!-- Country -->
+	<TextView 
+	    android:id="@+id/labelCountry"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/name"
+	    android:text="@string/country"/>
+	
+	<TextView
+        android:id="@+id/countryField"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_below="@+id/name"
+	    android:layout_toRightOf="@+id/labelCountry"/>
+	<!-- Country -->
+	
+	<!-- Latitude -->
+	<TextView 
+	    android:id="@+id/labelLatitude"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/labelCountry"
+	    android:text="@string/latitude"/>
+	
+	<TextView
+        android:id="@+id/latitudeField"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/countryField"
+	    android:layout_toRightOf="@+id/labelLatitude"/>
+	<!-- Latitude -->
+	
+	<!-- Longitude -->
+	<TextView 
+	    android:id="@+id/labelLongitude"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/labelLatitude"
+	    android:text="@string/longitude"/>
+	
+	<TextView
+        android:id="@+id/longitudeField"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/latitudeField"
+	    android:layout_toRightOf="@+id/labelLongitude"/>
+	<!-- Longitude -->
+	
+	<!-- Description -->
+	<TextView 
+	    android:id="@+id/labelDescription"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/labelLongitude"
+	    android:text="@string/description"
+	    android:visibility="gone"/>
+	
+	<TextView
+        android:id="@+id/descriptionField"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="6dp"
+	    android:paddingBottom="2dp"
+	    android:layout_marginRight="6dp"
+	    android:layout_below="@+id/longitudeField"
+	    android:layout_toRightOf="@+id/labelDescription"
+	    android:visibility="gone"/>
+	<!-- Description -->
+	
+	<View style="@style/Divider"/>
+</RelativeLayout>
