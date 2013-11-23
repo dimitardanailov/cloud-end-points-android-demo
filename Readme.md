@@ -2,7 +2,9 @@ Cloud Endpoints Demo
 ====================
 
 Google Cloud Endpoints Demo for public lectures into a Varna Lab and Clound Conf Varna 2013
+
 Varna Lab Website : http://www.varnalab.org
+
 Cloud Conf Varna Website : https://sites.google.com/a/agilemates.com/cloudconf
 
 Presentation
