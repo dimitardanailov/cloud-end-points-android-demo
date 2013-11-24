@@ -11,9 +11,9 @@ Presentation
 ====================
 Slide Share : http://www.slideshare.net/dimityrdanailov/google-cloud-endpoints
 
-Android Demo
+Cloud End Points Demo
 ====================
-GitHub Repo : https://github.com/dimitardanailov/cloud-end-points-android-demo
+GitHub Repo : https://github.com/dimitardanailov/cloud-endpoints-demo
 
 iOS Demo
 ====================
