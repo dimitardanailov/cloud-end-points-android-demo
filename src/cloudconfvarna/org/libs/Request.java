@@ -25,8 +25,8 @@ public class Request
     	{
 	    	//http get
 	    	HttpClient httpclient = new DefaultHttpClient();
-	        HttpGet httppost = new HttpGet(url);
-	        HttpResponse response = httpclient.execute(httppost);
+	        HttpGet httpget = new HttpGet(url);
+	        HttpResponse response = httpclient.execute(httpget);
 	        HttpEntity entity = response.getEntity();
 	        is = entity.getContent();
 	        
