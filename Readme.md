@@ -12,6 +12,7 @@ Soft Uni Website: https://softuni.bg/
 Presentation
 ====================
 Varna Lab and Clound Conf Slide Share Presentation: http://www.slideshare.net/dimityrdanailov/google-cloud-endpoints
+
 Soft Uni Slide Share Presentation: http://www.slideshare.net/dimityrdanailov/google-cloud-endpoints-soft-uni-june-2014
 
 Videos
